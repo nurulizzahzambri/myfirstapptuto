@@ -43,6 +43,7 @@ else:
    
         latest_iteration.text(f'Iteration {i+1}')
         bar.progress(i + 1)
+        # each changes take 0.1 sec
         time.sleep(0.1)
 
     '...and now we\'re done!'
