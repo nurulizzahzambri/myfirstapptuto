@@ -5,7 +5,7 @@ import time
 
 st.header("My first Streamlit App")
 
-option = st.selectbox(
+option = st.sidebar.selectbox(
     'Select a mini project',
      ['line chart','map','T n C','Long Process'])
 
